@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACH Group - Ada Cahaya di Hati</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#0f172a',
+                            900: '#020617',
+                        },
+                        gold: {
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased">
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-gradient-to-tr from-gold-600 to-amber-300 flex items-center justify-center font-bold text-slate-900 text-xl shadow-lg shadow-gold-500/20">
+                    ACH
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold tracking-wider text-white">ach <span class="text-gold-500">GROUP</span></span>
+                    <span class="block text-[10px] text-slate-400 -mt-1 tracking-widest uppercase">Ada Cahaya di Hati</span>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-300">
+                <a href="#beranda" class="hover:text-gold-400 transition">Beranda</a>
+                <a href="#tentang" class="hover:text-gold-400 transition">Tentang Kami</a>
+                <a href="#ekosistem" class="hover:text-gold-400 transition">Ekosistem Bisnis</a>
+                <a href="#sinergi" class="hover:text-gold-400 transition">Sinergi</a>
+            </div>
+
+            <a href="#kontak" class="hidden md:inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-gold-500 hover:bg-gold-600 text-slate-950 font-semibold text-sm transition shadow-lg shadow-gold-500/20">
+                Hubungi Kami
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="beranda" class="pt-32 pb-20 md:pt-48 md:pb-32 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-gold-500/10 via-transparent to-transparent"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <span class="inline-block px-4 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-semibold tracking-wider uppercase mb-6">
+                Holding Company & Ecosystem
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-tight max-w-4xl mx-auto">
+                Menghadirkan Solusi Terintegrasi dengan <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-400 to-amber-200">Cahaya & Integritas</span>
+            </h1>
+            <p class="mt-6 text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
+                ACH Group menaungi berbagai entitas bisnis yang bergerak secara harmonis di bidang Teknologi, Konstruksi, Otomotif, Kuliner, Edukasi, dan Pariwisata.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#ekosistem" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gold-500 hover:bg-gold-600 text-slate-950 font-bold text-base transition shadow-xl shadow-gold-500/20">
+                    Jelajahi Ekosistem Bisnis
+                </a>
+                <a href="#tentang" class="w-full sm:w-auto px-8 py-4 rounded-xl border border-slate-700 bg-slate-800/50 hover:bg-slate-800 text-slate-200 font-semibold text-base transition">
+                    Tentang ACH Group
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TENTANG KAMI / FILOSOFI -->
+    <section id="tentang" class="py-20 bg-slate-950/60 border-y border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-gold-500 font-bold text-sm tracking-widest uppercase">Filosofi Perusahaan</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mt-2 mb-6">"Ada Cahaya di Hati"</h2>
+                    <p class="text-slate-300 leading-relaxed mb-4">
+                        Nama <strong class="text-white">ACH Group</strong> berakar dari niat mulia dan penghormatan mendalam. Diambil dari frasa <em>"Ada Cahaya di Hati"</em>, perusahaan ini didirikan untuk menjadi sumber manfaat, kebaikan, dan solusi berorientasi masa depan bagi masyarakat luas.
+                    </p>
+                    <p class="text-slate-400 leading-relaxed">
+                        Dengan memadukan profesionalisme di sektor IT, konstruksi, otomotif, hingga gaya hidup, kami membangun setiap anak perusahaan tidak hanya sebagai bisnis mandiri, melainkan sebagai satu bagian dari puzzle ekosistem yang saling menopang.
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
+                        <div class="text-3xl font-extrabold text-gold-400 mb-1">8+</div>
+                        <div class="text-slate-300 font-semibold text-sm">Anak Perusahaan</div>
+                        <div class="text-slate-500 text-xs mt-1">Saling terintegrasi</div>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
+                        <div class="text-3xl font-extrabold text-gold-400 mb-1">100%</div>
+                        <div class="text-slate-300 font-semibold text-sm">Integritas</div>
+                        <div class="text-slate-500 text-xs mt-1">Pelayanan terbaik</div>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
+                        <div class="text-3xl font-extrabold text-gold-400 mb-1">IT</div>
+                        <div class="text-slate-300 font-semibold text-sm">Pondasi Utama</div>
+                        <div class="text-slate-500 text-xs mt-1">Pengalaman profesional</div>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
+                        <div class="text-3xl font-extrabold text-gold-400 mb-1">360°</div>
+                        <div class="text-slate-300 font-semibold text-sm">Sinergi Bisnis</div>
+                        <div class="text-slate-500 text-xs mt-1">Solusi komprehensif</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EKOSISTEM BISNIS -->
+    <section id="ekosistem" class="py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
+            <span class="text-gold-500 font-bold text-sm tracking-widest uppercase">Portfolio</span>
+            <h2 class="text-3xl md:text-5xl font-bold text-white mt-2">Ekosistem Anak Perusahaan</h2>
+            <p class="text-slate-400 mt-4 max-w-2xl mx-auto">
+                Delapan pilar usaha ACH Group yang siap melayani berbagai lini kebutuhan Anda.
+            </p>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Card 1: ACH Comp -->
+            <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-gold-500/50 transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center font-bold text-xl mb-4 group-hover:bg-gold-500 group-hover:text-slate-950 transition">
+                    💻
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">ACH Comp</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    Penyediaan komputer, laptop, jasa servis, instalasi jaringan komputer, dan sistem keamanan CCTV.
+                </p>
+                <span class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-800 text-gold-400">Teknologi & Hardware</span>
+            </div>
+
+            <!-- Card 2: Ngoding ACH -->
+            <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-gold-500/50 transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center font-bold text-xl mb-4 group-hover:bg-gold-500 group-hover:text-slate-950 transition">
+                    🚀
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Ngoding ACH</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    Pengembangan aplikasi, website, sistem informasi perusahaan, dan software kustom skala industri.
+                </p>
+                <span class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-800 text-gold-400">Software Engineering</span>
+            </div>
+
+            <!-- Card 3: Kuli ACH -->
+            <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-gold-500/50 transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center font-bold text-xl mb-4 group-hover:bg-gold-500 group-hover:text-slate-950 transition">
+                    🏗️
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Kuli ACH</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    Jasa konstruksi bangunan dari awal, renovasi rumah/kantor, desain interior, eksterior, dan taman.
+                </p>
+                <span class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-800 text-gold-400">Konstruksi & Properti</span>
+            </div>
+
+            <!-- Card 4: Oto ACH -->
+            <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-gold-500/50 transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-red-500/10 text-red-400 flex items-center justify-center font-bold text-xl mb-4 group-hover:bg-gold-500 group-hover:text-slate-950 transition">
+                    🚗
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Oto ACH</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    Layanan sektor otomotif mencakup pengadaan, perawatan, dan solusi kendaraan roda 2, roda 4, dan berroda.
+                </p>
+                <span class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-800 text-gold-400">Otomotif</span>
+            </div>
+
+            <!-- Card 5: Ngelencer ACH -->
+            <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-gold-500/50 transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-teal-500/10 text-teal-400 flex items-center justify-center font-bold text-xl mb-4 group-hover:bg-gold-500 group-hover:text-slate-950 transition">
+                    ✈️
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Ngelencer ACH</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    Layanan *tour and travel*, paket perjalanan wisata, dan solusi mobilitas perjalanan keluarga/instansi.
+                </p>
+                <span class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-800 text-gold-400">Tour & Travel</span>
+            </div>
+
+            <!-- Card 6: Ngopi ACH -->
+            <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-gold-500/50 transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center font-bold text-xl mb-4 group-hover:bg-gold-500 group-hover:text-slate-950 transition">
+                    ☕
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Ngopi ACH</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    Ruang bersantai berupa cafe dengan racikan kopi nikmat dan suasana nyaman untuk diskusi atau bekerja.
+                </p>
+                <span class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-800 text-gold-400">Food & Beverage</span>
+            </div>
+
+            <!-- Card 7: Nyamil ACH -->
+            <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-gold-500/50 transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-xl mb-4 group-hover:bg-gold-500 group-hover:text-slate-950 transition">
+                    🍿
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Nyamil ACH</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    Usaha kuliner penyedia makanan ringan, *snack*, *frozen food*, dan hidangan *healthy food* berkualitas.
+                </p>
+                <span class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-800 text-gold-400">Kuliner & Snack</span>
+            </div>
+
+            <!-- Card 8: Sinau ACH -->
+            <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-gold-500/50 transition duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center font-bold text-xl mb-4 group-hover:bg-gold-500 group-hover:text-slate-950 transition">
+                    📚
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Sinau ACH</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    Wadah ruang kumpul dan tempat belajar lintas bidang untuk bertukar pikiran serta mengembangkan keahlian.
+                </p>
+                <span class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-800 text-gold-400">Edukasi & Komunitas</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- KANBAN / SINERGI SECTION -->
+    <section id="sinergi" class="py-20 bg-slate-950/80 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-gold-500 font-bold text-sm tracking-widest uppercase">Kekuatan Utama</span>
+                <h2 class="text-3xl font-bold text-white mt-2">Kekuatan Sinergi Lintas Sektor</h2>
+            </div>
+            <div class="p-8 rounded-3xl bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="space-y-3">
+                        <div class="text-gold-400 font-bold text-lg">1. Infrastruktur & Teknologi</div>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Pembangunan fisik oleh <strong class="text-slate-200">Kuli ACH</strong> langsung dilengkapi jaringan hardware dari <strong class="text-slate-200">ACH Comp</strong> dan sistem digital dari <strong class="text-slate-200">Ngoding ACH</strong>.
+                        </p>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="text-gold-400 font-bold text-lg">2. Mobilitas & Konsumsi</div>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Perjalanan wisata <strong class="text-slate-200">Ngelencer ACH</strong> didukung perawatan armada <strong class="text-slate-200">Oto ACH</strong> dan katering konsumsi dari <strong class="text-slate-200">Nyamil ACH</strong>.
+                        </p>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="text-gold-400 font-bold text-lg">3. Ruang & Edukasi</div>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Tempat berkumpul <strong class="text-slate-200">Sinau ACH</strong> menyatu hangat dengan suasana cafe <strong class="text-slate-200">Ngopi ACH</strong> dalam satu ruang kolaborasi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="kontak" class="py-12 border-t border-slate-800 bg-slate-950 text-slate-500 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div>
+                <span class="text-lg font-bold text-white">ach <span class="text-gold-500">GROUP</span></span>
+                <p class="text-xs text-slate-400 mt-1">Ada Cahaya di Hati — Holding Company</p>
+            </div>
+            <div class="text-center md:text-right">
+                <p>&copy; 2026 ACH Group. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
